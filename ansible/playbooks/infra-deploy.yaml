@@ -10,11 +10,11 @@
     cluster_name: cluster.local
     os_bastion_user: ubuntu
     os_image_id: Ubuntu-22.04
-    os_cloud_name: "rxt-mvp"
+    os_cloud_name: ajv-flex-test
     os_network_name: openstack-flex
     os_keypair_name: "{{ os_network_name }}-keypair"
     os_launcher_flavor: m1.medium
-    os_node_flavor: m1.large
+    os_node_flavor: m1.extra_large
     os_node_count: 7
     # Not used when using MetalLB
     # os_security_groups:
